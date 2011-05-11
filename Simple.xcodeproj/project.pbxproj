@@ -72,6 +72,21 @@
 		CE53F146137A25AA00C1A811 /* EventsRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE53F13B137A25AA00C1A811 /* EventsRootViewController.xib */; };
 		CE53F147137A25AA00C1A811 /* MyScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53F13D137A25AA00C1A811 /* MyScrollViewViewController.m */; };
 		CE53F148137A25AA00C1A811 /* MyScrollViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE53F13E137A25AA00C1A811 /* MyScrollViewViewController.xib */; };
+		CE53F160137A36BF00C1A811 /* CMT_iPhone_001.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F151137A36B100C1A811 /* CMT_iPhone_001.png */; };
+		CE53F161137A36BF00C1A811 /* CMT_iPhone_002.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F152137A36B200C1A811 /* CMT_iPhone_002.png */; };
+		CE53F162137A36BF00C1A811 /* CMT_iPhone_003.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F153137A36B300C1A811 /* CMT_iPhone_003.png */; };
+		CE53F163137A36BF00C1A811 /* CMT_iPhone_004.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F154137A36B500C1A811 /* CMT_iPhone_004.png */; };
+		CE53F164137A36BF00C1A811 /* CMT_iPhone_005.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F155137A36B600C1A811 /* CMT_iPhone_005.png */; };
+		CE53F165137A36BF00C1A811 /* CMT_iPhone_006.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F156137A36B700C1A811 /* CMT_iPhone_006.png */; };
+		CE53F166137A36BF00C1A811 /* CMT_iPhone_007.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F157137A36B800C1A811 /* CMT_iPhone_007.png */; };
+		CE53F167137A36BF00C1A811 /* CMT_iPhone_008.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F158137A36BA00C1A811 /* CMT_iPhone_008.png */; };
+		CE53F168137A36BF00C1A811 /* CMT_iPhone_009.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F159137A36BA00C1A811 /* CMT_iPhone_009.png */; };
+		CE53F169137A36BF00C1A811 /* CMT_iPhone_010.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F15A137A36BB00C1A811 /* CMT_iPhone_010.png */; };
+		CE53F16A137A36BF00C1A811 /* CMT_iPhone_011.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F15B137A36BC00C1A811 /* CMT_iPhone_011.png */; };
+		CE53F16B137A36BF00C1A811 /* CMT_iPhone_012.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F15C137A36BC00C1A811 /* CMT_iPhone_012.png */; };
+		CE53F16C137A36BF00C1A811 /* CMT_iPhone_013.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F15D137A36BD00C1A811 /* CMT_iPhone_013.png */; };
+		CE53F16D137A36BF00C1A811 /* CMT_iPhone_014.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F15E137A36BE00C1A811 /* CMT_iPhone_014.png */; };
+		CE53F16E137A36BF00C1A811 /* CMT_iPhone_015.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F15F137A36BF00C1A811 /* CMT_iPhone_015.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -172,6 +187,21 @@
 		CE53F13C137A25AA00C1A811 /* MyScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyScrollViewViewController.h; sourceTree = "<group>"; };
 		CE53F13D137A25AA00C1A811 /* MyScrollViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyScrollViewViewController.m; sourceTree = "<group>"; };
 		CE53F13E137A25AA00C1A811 /* MyScrollViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyScrollViewViewController.xib; sourceTree = "<group>"; };
+		CE53F151137A36B100C1A811 /* CMT_iPhone_001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_001.png; sourceTree = "<group>"; };
+		CE53F152137A36B200C1A811 /* CMT_iPhone_002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_002.png; sourceTree = "<group>"; };
+		CE53F153137A36B300C1A811 /* CMT_iPhone_003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_003.png; sourceTree = "<group>"; };
+		CE53F154137A36B500C1A811 /* CMT_iPhone_004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_004.png; sourceTree = "<group>"; };
+		CE53F155137A36B600C1A811 /* CMT_iPhone_005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_005.png; sourceTree = "<group>"; };
+		CE53F156137A36B700C1A811 /* CMT_iPhone_006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_006.png; sourceTree = "<group>"; };
+		CE53F157137A36B800C1A811 /* CMT_iPhone_007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_007.png; sourceTree = "<group>"; };
+		CE53F158137A36BA00C1A811 /* CMT_iPhone_008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_008.png; sourceTree = "<group>"; };
+		CE53F159137A36BA00C1A811 /* CMT_iPhone_009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_009.png; sourceTree = "<group>"; };
+		CE53F15A137A36BB00C1A811 /* CMT_iPhone_010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_010.png; sourceTree = "<group>"; };
+		CE53F15B137A36BC00C1A811 /* CMT_iPhone_011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_011.png; sourceTree = "<group>"; };
+		CE53F15C137A36BC00C1A811 /* CMT_iPhone_012.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_012.png; sourceTree = "<group>"; };
+		CE53F15D137A36BD00C1A811 /* CMT_iPhone_013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_013.png; sourceTree = "<group>"; };
+		CE53F15E137A36BE00C1A811 /* CMT_iPhone_014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_014.png; sourceTree = "<group>"; };
+		CE53F15F137A36BF00C1A811 /* CMT_iPhone_015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_015.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +344,21 @@
 		CE53F0F3137A24CE00C1A811 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CE53F151137A36B100C1A811 /* CMT_iPhone_001.png */,
+				CE53F152137A36B200C1A811 /* CMT_iPhone_002.png */,
+				CE53F153137A36B300C1A811 /* CMT_iPhone_003.png */,
+				CE53F154137A36B500C1A811 /* CMT_iPhone_004.png */,
+				CE53F155137A36B600C1A811 /* CMT_iPhone_005.png */,
+				CE53F156137A36B700C1A811 /* CMT_iPhone_006.png */,
+				CE53F157137A36B800C1A811 /* CMT_iPhone_007.png */,
+				CE53F158137A36BA00C1A811 /* CMT_iPhone_008.png */,
+				CE53F159137A36BA00C1A811 /* CMT_iPhone_009.png */,
+				CE53F15A137A36BB00C1A811 /* CMT_iPhone_010.png */,
+				CE53F15B137A36BC00C1A811 /* CMT_iPhone_011.png */,
+				CE53F15C137A36BC00C1A811 /* CMT_iPhone_012.png */,
+				CE53F15D137A36BD00C1A811 /* CMT_iPhone_013.png */,
+				CE53F15E137A36BE00C1A811 /* CMT_iPhone_014.png */,
+				CE53F15F137A36BF00C1A811 /* CMT_iPhone_015.png */,
 				CE53F0F4137A24CE00C1A811 /* 1.png */,
 				CE53F0F5137A24CE00C1A811 /* 2.png */,
 				CE53F0F6137A24CE00C1A811 /* 3.png */,
@@ -462,6 +507,21 @@
 				CE53F144137A25AA00C1A811 /* EventsDetailViewController.xib in Resources */,
 				CE53F146137A25AA00C1A811 /* EventsRootViewController.xib in Resources */,
 				CE53F148137A25AA00C1A811 /* MyScrollViewViewController.xib in Resources */,
+				CE53F160137A36BF00C1A811 /* CMT_iPhone_001.png in Resources */,
+				CE53F161137A36BF00C1A811 /* CMT_iPhone_002.png in Resources */,
+				CE53F162137A36BF00C1A811 /* CMT_iPhone_003.png in Resources */,
+				CE53F163137A36BF00C1A811 /* CMT_iPhone_004.png in Resources */,
+				CE53F164137A36BF00C1A811 /* CMT_iPhone_005.png in Resources */,
+				CE53F165137A36BF00C1A811 /* CMT_iPhone_006.png in Resources */,
+				CE53F166137A36BF00C1A811 /* CMT_iPhone_007.png in Resources */,
+				CE53F167137A36BF00C1A811 /* CMT_iPhone_008.png in Resources */,
+				CE53F168137A36BF00C1A811 /* CMT_iPhone_009.png in Resources */,
+				CE53F169137A36BF00C1A811 /* CMT_iPhone_010.png in Resources */,
+				CE53F16A137A36BF00C1A811 /* CMT_iPhone_011.png in Resources */,
+				CE53F16B137A36BF00C1A811 /* CMT_iPhone_012.png in Resources */,
+				CE53F16C137A36BF00C1A811 /* CMT_iPhone_013.png in Resources */,
+				CE53F16D137A36BF00C1A811 /* CMT_iPhone_014.png in Resources */,
+				CE53F16E137A36BF00C1A811 /* CMT_iPhone_015.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

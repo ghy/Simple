@@ -11,7 +11,7 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>iphone-tests-icon.png</string>
+	<string>CMT_iPhone_011.png</string>
 	<key>CFBundleIdentifier</key>
 	<string>you-may.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
