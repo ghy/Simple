@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface SimpleAppDelegate : NSObject <UIApplicationDelegate> {
-
+    UIWindow *window;
+    UITabBarController *rootController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet UITabBarController *rootController;
 
 @property (nonatomic, retain, readonly) NSManagedObjectContext *managedObjectContext;
 @property (nonatomic, retain, readonly) NSManagedObjectModel *managedObjectModel;
