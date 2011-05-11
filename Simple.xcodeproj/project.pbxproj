@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE53F056137A206500C1A811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE53F055137A206500C1A811 /* UIKit.framework */; };
+		CE53F058137A206500C1A811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE53F057137A206500C1A811 /* Foundation.framework */; };
+		CE53F05A137A206500C1A811 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE53F059137A206500C1A811 /* CoreGraphics.framework */; };
+		CE53F05C137A206500C1A811 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE53F05B137A206500C1A811 /* CoreData.framework */; };
+		CE53F062137A206500C1A811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE53F060137A206500C1A811 /* InfoPlist.strings */; };
+		CE53F065137A206500C1A811 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53F064137A206500C1A811 /* main.m */; };
+		CE53F068137A206500C1A811 /* SimpleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53F067137A206500C1A811 /* SimpleAppDelegate.m */; };
+		CE53F06B137A206500C1A811 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE53F069137A206500C1A811 /* MainWindow.xib */; };
+		CE53F06E137A206500C1A811 /* Simple.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE53F06C137A206500C1A811 /* Simple.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE53F051137A206500C1A811 /* Simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Simple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE53F055137A206500C1A811 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE53F057137A206500C1A811 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE53F059137A206500C1A811 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE53F05B137A206500C1A811 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE53F05F137A206500C1A811 /* Simple-Info.plist */ = {isa = PBXFileReference; path = "Simple-Info.plist"; sourceTree = "<group>"; };
+		CE53F061137A206500C1A811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE53F063137A206500C1A811 /* Simple-Prefix.pch */ = {isa = PBXFileReference; path = "Simple-Prefix.pch"; sourceTree = "<group>"; };
+		CE53F064137A206500C1A811 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE53F066137A206500C1A811 /* SimpleAppDelegate.h */ = {isa = PBXFileReference; path = SimpleAppDelegate.h; sourceTree = "<group>"; };
+		CE53F067137A206500C1A811 /* SimpleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleAppDelegate.m; sourceTree = "<group>"; };
+		CE53F06A137A206500C1A811 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CE53F06D137A206500C1A811 /* Simple.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Simple.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE53F04E137A206500C1A811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE53F056137A206500C1A811 /* UIKit.framework in Frameworks */,
+				CE53F058137A206500C1A811 /* Foundation.framework in Frameworks */,
+				CE53F05A137A206500C1A811 /* CoreGraphics.framework in Frameworks */,
+				CE53F05C137A206500C1A811 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE53F046137A206500C1A811 = {
+			isa = PBXGroup;
+			children = (
+				CE53F05D137A206500C1A811 /* Simple */,
+				CE53F054137A206500C1A811 /* Frameworks */,
+				CE53F052137A206500C1A811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE53F052137A206500C1A811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE53F051137A206500C1A811 /* Simple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE53F054137A206500C1A811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE53F055137A206500C1A811 /* UIKit.framework */,
+				CE53F057137A206500C1A811 /* Foundation.framework */,
+				CE53F059137A206500C1A811 /* CoreGraphics.framework */,
+				CE53F05B137A206500C1A811 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE53F05D137A206500C1A811 /* Simple */ = {
+			isa = PBXGroup;
+			children = (
+				CE53F066137A206500C1A811 /* SimpleAppDelegate.h */,
+				CE53F067137A206500C1A811 /* SimpleAppDelegate.m */,
+				CE53F069137A206500C1A811 /* MainWindow.xib */,
+				CE53F06C137A206500C1A811 /* Simple.xcdatamodeld */,
+				CE53F05E137A206500C1A811 /* Supporting Files */,
+			);
+			path = Simple;
+			sourceTree = "<group>";
+		};
+		CE53F05E137A206500C1A811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE53F05F137A206500C1A811 /* Simple-Info.plist */,
+				CE53F060137A206500C1A811 /* InfoPlist.strings */,
+				CE53F063137A206500C1A811 /* Simple-Prefix.pch */,
+				CE53F064137A206500C1A811 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE53F050137A206500C1A811 /* Simple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE53F071137A206500C1A811 /* Build configuration list for PBXNativeTarget "Simple" */;
+			buildPhases = (
+				CE53F04D137A206500C1A811 /* Sources */,
+				CE53F04E137A206500C1A811 /* Frameworks */,
+				CE53F04F137A206500C1A811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Simple;
+			productName = Simple;
+			productReference = CE53F051137A206500C1A811 /* Simple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE53F048137A206500C1A811 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = CE53F04B137A206500C1A811 /* Build configuration list for PBXProject "Simple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE53F046137A206500C1A811;
+			productRefGroup = CE53F052137A206500C1A811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE53F050137A206500C1A811 /* Simple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE53F04F137A206500C1A811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE53F062137A206500C1A811 /* InfoPlist.strings in Resources */,
+				CE53F06B137A206500C1A811 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE53F04D137A206500C1A811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE53F065137A206500C1A811 /* main.m in Sources */,
+				CE53F068137A206500C1A811 /* SimpleAppDelegate.m in Sources */,
+				CE53F06E137A206500C1A811 /* Simple.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE53F060137A206500C1A811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE53F061137A206500C1A811 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE53F069137A206500C1A811 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE53F06A137A206500C1A811 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE53F06F137A206500C1A811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE53F070137A206500C1A811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		CE53F072137A206500C1A811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple/Simple-Prefix.pch";
+				INFOPLIST_FILE = "Simple/Simple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE53F073137A206500C1A811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple/Simple-Prefix.pch";
+				INFOPLIST_FILE = "Simple/Simple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE53F04B137A206500C1A811 /* Build configuration list for PBXProject "Simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE53F06F137A206500C1A811 /* Debug */,
+				CE53F070137A206500C1A811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE53F071137A206500C1A811 /* Build configuration list for PBXNativeTarget "Simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE53F072137A206500C1A811 /* Debug */,
+				CE53F073137A206500C1A811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE53F06C137A206500C1A811 /* Simple.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE53F06D137A206500C1A811 /* Simple.xcdatamodel */,
+			);
+			currentVersion = CE53F06D137A206500C1A811 /* Simple.xcdatamodel */;
+			path = Simple.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE53F048137A206500C1A811 /* Project object */;
+}
