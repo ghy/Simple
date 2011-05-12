@@ -59,7 +59,6 @@
 		CE53F120137A24CE00C1A811 /* menu_home.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F109137A24CE00C1A811 /* menu_home.png */; };
 		CE53F121137A24CE00C1A811 /* narrow_select.9.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F10A137A24CE00C1A811 /* narrow_select.9.png */; };
 		CE53F126137A24EA00C1A811 /* HomeRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53F124137A24EA00C1A811 /* HomeRootViewController.m */; };
-		CE53F127137A24EA00C1A811 /* HomeRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE53F125137A24EA00C1A811 /* HomeRootViewController.xib */; };
 		CE53F12D137A252900C1A811 /* Article.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53F12A137A252900C1A811 /* Article.m */; };
 		CE53F12E137A252900C1A811 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53F12C137A252900C1A811 /* News.m */; };
 		CE53F13F137A25AA00C1A811 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53F131137A25AA00C1A811 /* CustomCell.m */; };
@@ -87,6 +86,14 @@
 		CE53F16C137A36BF00C1A811 /* CMT_iPhone_013.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F15D137A36BD00C1A811 /* CMT_iPhone_013.png */; };
 		CE53F16D137A36BF00C1A811 /* CMT_iPhone_014.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F15E137A36BE00C1A811 /* CMT_iPhone_014.png */; };
 		CE53F16E137A36BF00C1A811 /* CMT_iPhone_015.png in Resources */ = {isa = PBXBuildFile; fileRef = CE53F15F137A36BF00C1A811 /* CMT_iPhone_015.png */; };
+		CE53F173137A639600C1A811 /* HomeRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE53F172137A639600C1A811 /* HomeRootViewController.xib */; };
+		CE53F17E137A640A00C1A811 /* MusicRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53F176137A640A00C1A811 /* MusicRootViewController.m */; };
+		CE53F17F137A640A00C1A811 /* MusicRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE53F177137A640A00C1A811 /* MusicRootViewController.xib */; };
+		CE53F180137A640A00C1A811 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53F179137A640A00C1A811 /* NewsCell.m */; };
+		CE53F181137A640A00C1A811 /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE53F17A137A640A00C1A811 /* NewsCell.xib */; };
+		CE53F182137A640A00C1A811 /* NewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53F17C137A640A00C1A811 /* NewsDetailViewController.m */; };
+		CE53F183137A640A00C1A811 /* NewsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE53F17D137A640A00C1A811 /* NewsDetailViewController.xib */; };
+		CE53F18E137A9AB100C1A811 /* UIHTTPImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE53F18D137A9AAF00C1A811 /* UIHTTPImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -167,7 +174,6 @@
 		CE53F10A137A24CE00C1A811 /* narrow_select.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = narrow_select.9.png; sourceTree = "<group>"; };
 		CE53F123137A24EA00C1A811 /* HomeRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeRootViewController.h; sourceTree = "<group>"; };
 		CE53F124137A24EA00C1A811 /* HomeRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeRootViewController.m; sourceTree = "<group>"; };
-		CE53F125137A24EA00C1A811 /* HomeRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeRootViewController.xib; sourceTree = "<group>"; };
 		CE53F129137A252900C1A811 /* Article.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Article.h; sourceTree = "<group>"; };
 		CE53F12A137A252900C1A811 /* Article.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Article.m; sourceTree = "<group>"; };
 		CE53F12B137A252900C1A811 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
@@ -202,6 +208,18 @@
 		CE53F15D137A36BD00C1A811 /* CMT_iPhone_013.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_013.png; sourceTree = "<group>"; };
 		CE53F15E137A36BE00C1A811 /* CMT_iPhone_014.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_014.png; sourceTree = "<group>"; };
 		CE53F15F137A36BF00C1A811 /* CMT_iPhone_015.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMT_iPhone_015.png; sourceTree = "<group>"; };
+		CE53F172137A639600C1A811 /* HomeRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeRootViewController.xib; sourceTree = "<group>"; };
+		CE53F175137A640A00C1A811 /* MusicRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicRootViewController.h; sourceTree = "<group>"; };
+		CE53F176137A640A00C1A811 /* MusicRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicRootViewController.m; sourceTree = "<group>"; };
+		CE53F177137A640A00C1A811 /* MusicRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicRootViewController.xib; sourceTree = "<group>"; };
+		CE53F178137A640A00C1A811 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		CE53F179137A640A00C1A811 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		CE53F17A137A640A00C1A811 /* NewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
+		CE53F17B137A640A00C1A811 /* NewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsDetailViewController.h; sourceTree = "<group>"; };
+		CE53F17C137A640A00C1A811 /* NewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsDetailViewController.m; sourceTree = "<group>"; };
+		CE53F17D137A640A00C1A811 /* NewsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsDetailViewController.xib; sourceTree = "<group>"; };
+		CE53F18C137A9AAD00C1A811 /* UIHTTPImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHTTPImageView.h; sourceTree = "<group>"; };
+		CE53F18D137A9AAF00C1A811 /* UIHTTPImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHTTPImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -259,9 +277,10 @@
 		CE53F05D137A206500C1A811 /* Simple */ = {
 			isa = PBXGroup;
 			children = (
+				CE53F174137A640900C1A811 /* Music */,
+				CE53F122137A24EA00C1A811 /* Home */,
 				CE53F12F137A25AA00C1A811 /* Events */,
 				CE53F128137A252900C1A811 /* Model */,
-				CE53F122137A24EA00C1A811 /* Home */,
 				CE53F084137A20DF00C1A811 /* ASIClass */,
 				CE53F09B137A20DF00C1A811 /* Json */,
 				CE53F066137A206500C1A811 /* SimpleAppDelegate.h */,
@@ -391,7 +410,7 @@
 			children = (
 				CE53F123137A24EA00C1A811 /* HomeRootViewController.h */,
 				CE53F124137A24EA00C1A811 /* HomeRootViewController.m */,
-				CE53F125137A24EA00C1A811 /* HomeRootViewController.xib */,
+				CE53F172137A639600C1A811 /* HomeRootViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -427,6 +446,24 @@
 				CE53F13E137A25AA00C1A811 /* MyScrollViewViewController.xib */,
 			);
 			path = Events;
+			sourceTree = "<group>";
+		};
+		CE53F174137A640900C1A811 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				CE53F175137A640A00C1A811 /* MusicRootViewController.h */,
+				CE53F176137A640A00C1A811 /* MusicRootViewController.m */,
+				CE53F177137A640A00C1A811 /* MusicRootViewController.xib */,
+				CE53F178137A640A00C1A811 /* NewsCell.h */,
+				CE53F179137A640A00C1A811 /* NewsCell.m */,
+				CE53F17A137A640A00C1A811 /* NewsCell.xib */,
+				CE53F17B137A640A00C1A811 /* NewsDetailViewController.h */,
+				CE53F17C137A640A00C1A811 /* NewsDetailViewController.m */,
+				CE53F17D137A640A00C1A811 /* NewsDetailViewController.xib */,
+				CE53F18C137A9AAD00C1A811 /* UIHTTPImageView.h */,
+				CE53F18D137A9AAF00C1A811 /* UIHTTPImageView.m */,
+			);
+			path = Music;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -501,7 +538,6 @@
 				CE53F11F137A24CE00C1A811 /* iphone-tests-icon.png in Resources */,
 				CE53F120137A24CE00C1A811 /* menu_home.png in Resources */,
 				CE53F121137A24CE00C1A811 /* narrow_select.9.png in Resources */,
-				CE53F127137A24EA00C1A811 /* HomeRootViewController.xib in Resources */,
 				CE53F140137A25AA00C1A811 /* CustomCell.xib in Resources */,
 				CE53F142137A25AA00C1A811 /* EventsDetailsViewController.xib in Resources */,
 				CE53F144137A25AA00C1A811 /* EventsDetailViewController.xib in Resources */,
@@ -522,6 +558,10 @@
 				CE53F16C137A36BF00C1A811 /* CMT_iPhone_013.png in Resources */,
 				CE53F16D137A36BF00C1A811 /* CMT_iPhone_014.png in Resources */,
 				CE53F16E137A36BF00C1A811 /* CMT_iPhone_015.png in Resources */,
+				CE53F173137A639600C1A811 /* HomeRootViewController.xib in Resources */,
+				CE53F17F137A640A00C1A811 /* MusicRootViewController.xib in Resources */,
+				CE53F181137A640A00C1A811 /* NewsCell.xib in Resources */,
+				CE53F183137A640A00C1A811 /* NewsDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +598,10 @@
 				CE53F143137A25AA00C1A811 /* EventsDetailViewController.m in Sources */,
 				CE53F145137A25AA00C1A811 /* EventsRootViewController.m in Sources */,
 				CE53F147137A25AA00C1A811 /* MyScrollViewViewController.m in Sources */,
+				CE53F17E137A640A00C1A811 /* MusicRootViewController.m in Sources */,
+				CE53F180137A640A00C1A811 /* NewsCell.m in Sources */,
+				CE53F182137A640A00C1A811 /* NewsDetailViewController.m in Sources */,
+				CE53F18E137A9AB100C1A811 /* UIHTTPImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
